@@ -1,0 +1,67 @@
+{
+    "time": "Mon Feb 15 15:34:35 2021",
+    "information": {
+        "target": "m.imomo.tv",
+        "cdn": "YES",
+        "waf": "Yunsuo",
+        "system": "Linux/Uinx",
+        "whois": "<p class=\"MoreInfo\" id=\"detail_info\">;                            Domain Name: IMOMO.TV\n   Registry Domain ID: 147550738_DOMAIN_TV-VRSN\n   Registrar WHOIS Server: whois.godaddy.com\n   Registrar URL: http://www.godaddy.com\n   Updated Date: 2020-05-12T06:19:37Z\n   Creation Date: 2020-03-08T16:28:41Z\n   Registry Expiry Date: 2022-03-08T17:28:41Z\n   Registrar: GoDaddy.com, LLC\n   Registrar IANA ID: 146\n   Registrar Abuse Contact Email: abuse@godaddy.com\n   Registrar Abuse Contact Phone:*******-2505\n   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\n   Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\n   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\n   Name Server: NS7.ALIDNS.COM\n   Name Server: NS8.ALIDNS.COM\n   DNSSEC: unsigned\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n&gt;&gt;&gt; Last update of WHOIS database: 2020-05-23T11:05:49Z &lt;&lt;&lt;\n\nFor more information on Whois status codes, please visit https://icann.org/epp\n\nNOTICE: The expiration date displayed in this record is the date the\nregistrar\"s sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the\nexpiration date of the domain name registrant\"s agreement with the\nsponsoring registrar.  Users may consult the sponsoring registrar\"s\nWhois database to view the registrar\"s reported date of expiration\nfor this registration.\n\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign\"s (\"VeriSign\") Whois\ndatabase is provided by VeriSign for information purposes only, and to\nassist persons in obtaining information about or related to a domain name\nregistration record. VeriSign does not guarantee its accuracy.\nBy submitting a Whois query, you agree to abide by the following terms of\nuse: You agree that you may use this Data only for lawful purposes and that\nunder no circumstances will you use this Data to: (1) allow, enable, or\notherwise support the transmission of mass unsolicited, commercial\nadvertising or solicitations via e-mail, telephone, or facsimile; or\n(2) enable high volume, automated, electronic processes that apply to\nVeriSign (or its computer systems). The compilation, repackaging,\ndissemination or other use of this Data is expressly prohibited without\nthe prior written consent of VeriSign. You agree not to use electronic\nprocesses that are automated and high-volume to access or query the\nWhois database except as reasonably necessary to register domain names\nor modify existing registrations. VeriSign reserves the right to restrict\nyour access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.                        </p>",
+        "fingerprint": {
+            "url": "m.imomo.tv",
+            "JavaScript Frameworks": "['jQuery 2.1.3']",
+            "CMS": "['DedeCMS']",
+            "Web Servers": "['Nginx']",
+            "Programming Languages": "['PHP']"
+        }
+    },
+    "sensitive": {
+        "subdomain": {},
+        "port": {},
+        "dir": [
+            "http://m.imomo.tv/index.jsp",
+            "http://m.imomo.tv/fuckfuck.jsp",
+            "http://m.imomo.tv/index.jsp",
+            "http://m.imomo.tv/job.jsp",
+            "http://m.imomo.tv/conifgs.jsp",
+            "http://m.imomo.tv/b001.jsp",
+            "http://m.imomo.tv/ma.jsp",
+            "http://m.imomo.tv/panel.jsp",
+            "http://m.imomo.tv/2.jsp",
+            "http://m.imomo.tv/login.jsp",
+            "http://m.imomo.tv/GSDLYT.jsp",
+            "http://m.imomo.tv/dynamicattrs.jsp",
+            "http://m.imomo.tv/include.jsp",
+            "http://m.imomo.tv/examples.jsp",
+            "http://m.imomo.tv/plugin.jsp",
+            "http://m.imomo.tv/wlscmd.jsp",
+            "http://m.imomo.tv/zzxas.jsp",
+            "http://m.imomo.tv/login.do",
+            "http://m.imomo.tv/upload.do",
+            "http://m.imomo.tv/admin.do",
+            "http://m.imomo.tv/login.action",
+            "http://m.imomo.tv/bindUser.do",
+            "http://m.imomo.tv/ddcx.do",
+            "http://m.imomo.tv/.ssh/id_rsa.pub",
+            "http://m.imomo.tv/WEB-INF/conf/database_config.properties",
+            "http://m.imomo.tv/invoker/JMXInvokerServlet",
+            "http://m.imomo.tv/.ssh/id_dsa",
+            "http://m.imomo.tv/favicon.ico",
+            "http://m.imomo.tv/data/common.inc.php",
+            "http://m.imomo.tv/robots.txt",
+            "http://m.imomo.tv/robots.txt"
+        ],
+        "jsparse": {
+            "http://mechatim.com/js/unit/button.js": "http://m.imomo.tv/",
+            "http://service.weibo.com/share/share.php": "http://m.imomo.tv/",
+            "http://connect.qq.com/widget/shareqq/index.html": "http://m.imomo.tv/",
+            "http://v.t.qq.com/share/share.php": "http://m.imomo.tv/"
+        },
+        "sql_fuzz": {
+            "http://m.imomo.tv/?id=1": "http://m.imomo.tv/?id=1@"
+        }
+    },
+    "vuln": {
+        "service_vuln": {},
+        "cms_vuln": {}
+    }
+}

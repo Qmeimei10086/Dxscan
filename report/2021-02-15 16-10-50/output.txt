@@ -1,0 +1,218 @@
+***********************************LOG**********************************************
+Mon Feb 15 16:10:50 2021
+
+target : m.imomo.tv
+CDN情况: YES
+waf情况: Yunsuo
+系统:Linux/Uinx
+************************************whois信息**************************************
+<p class="MoreInfo" id="detail_info">
+                            Domain Name: IMOMO.TV
+   Registry Domain ID: 147550738_DOMAIN_TV-VRSN
+   Registrar WHOIS Server: whois.godaddy.com
+   Registrar URL: http://www.godaddy.com
+   Updated Date: 2020-05-12T06:19:37Z
+   Creation Date: 2020-03-08T16:28:41Z
+   Registry Expiry Date: 2022-03-08T17:28:41Z
+   Registrar: GoDaddy.com, LLC
+   Registrar IANA ID: 146
+   Registrar Abuse Contact Email: abuse@godaddy.com
+   Registrar Abuse Contact Phone:*******-2505
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Name Server: NS7.ALIDNS.COM
+   Name Server: NS8.ALIDNS.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+&gt;&gt;&gt; Last update of WHOIS database: 2020-05-23T11:05:49Z &lt;&lt;&lt;
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar"s sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the
+expiration date of the domain name registrant"s agreement with the
+sponsoring registrar.  Users may consult the sponsoring registrar"s
+Whois database to view the registrar"s reported date of expiration
+for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign"s ("VeriSign") Whois
+database is provided by VeriSign for information purposes only, and to
+assist persons in obtaining information about or related to a domain name
+registration record. VeriSign does not guarantee its accuracy.
+By submitting a Whois query, you agree to abide by the following terms of
+use: You agree that you may use this Data only for lawful purposes and that
+under no circumstances will you use this Data to: (1) allow, enable, or
+otherwise support the transmission of mass unsolicited, commercial
+advertising or solicitations via e-mail, telephone, or facsimile; or
+(2) enable high volume, automated, electronic processes that apply to
+VeriSign (or its computer systems). The compilation, repackaging,
+dissemination or other use of this Data is expressly prohibited without
+the prior written consent of VeriSign. You agree not to use electronic
+processes that are automated and high-volume to access or query the
+Whois database except as reasonably necessary to register domain names
+or modify existing registrations. VeriSign reserves the right to restrict
+your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.                        </p>
+**********************************************************************************
+
+*************************************指纹信息************************************
+url    ==>   m.imomo.tv
+JavaScript Frameworks    ==>   ['jQuery 2.1.3']
+CMS    ==>   ['DedeCMS']
+Web Servers    ==>   ['Nginx']
+Programming Languages    ==>   ['PHP']
+*******************************************************************************
+
+************************************子域名*************************************
+*******************************************************************************
+
+**********************************敏感目录**************************************
+http://m.imomo.tv/favicon.ico
+http://m.imomo.tv/app.ini
+http://m.imomo.tv/sftp-config.json
+http://m.imomo.tv/deploy.sh
+http://m.imomo.tv/sync.sh
+http://m.imomo.tv/.svn/entries
+http://m.imomo.tv/wp-config.inc
+http://m.imomo.tv/index.cgi.bak
+http://m.imomo.tv/66.ashx
+http://m.imomo.tv/WEB-INF/classes/jdbc.properties
+http://m.imomo.tv/application.ini
+http://m.imomo.tv/proxy.pac
+http://m.imomo.tv/backup.sh
+http://m.imomo.tv/configs/application.ini
+http://m.imomo.tv/server.cfg
+http://m.imomo.tv/server-info/struts/webconsole.html
+http://m.imomo.tv/pangca.PHp
+http://m.imomo.tv/nohup.out
+http://m.imomo.tv/index.htm
+http://m.imomo.tv/change_lan.php?LanID=../../../../../../../../../etc/passwd%00
+http://m.imomo.tv/memadmin/index.php
+http://m.imomo.tv/xmlrpc.php
+http://m.imomo.tv/phpinfo.php
+http://m.imomo.tv/.data.php.swp
+http://m.imomo.tv/pma/index.php
+http://m.imomo.tv/.settings.php.swp
+http://m.imomo.tv/.config.php.swp
+http://m.imomo.tv/.database.php.swp
+http://m.imomo.tv/config.inc.php.bak
+http://m.imomo.tv/wp-config.php
+http://m.imomo.tv/php.ini
+http://m.imomo.tv/data/common.inc.php
+http://m.imomo.tv/coco.php
+http://m.imomo.tv/gh.php
+http://m.imomo.tv/akismet.php
+http://m.imomo.tv/config_updat.php
+http://m.imomo.tv/config2.php
+http://m.imomo.tv/indexl.php
+http://m.imomo.tv/3.php
+http://m.imomo.tv/inCahe.php
+http://m.imomo.tv/tnsado.php
+http://m.imomo.tv/lx.php
+http://m.imomo.tv/xiaolei.php
+http://m.imomo.tv/top.php
+http://m.imomo.tv/confg.inc.php
+http://m.imomo.tv/indexa.php
+http://m.imomo.tv/uddatasql.php
+http://m.imomo.tv/word.php
+http://m.imomo.tv/fuck.php
+http://m.imomo.tv/seo.php
+http://m.imomo.tv/suimaoye.php
+http://m.imomo.tv/user.php
+http://m.imomo.tv/d.php
+http://m.imomo.tv/___index.php
+http://m.imomo.tv/robots1.php
+http://m.imomo.tv/bat.php
+http://m.imomo.tv/ping.php
+http://m.imomo.tv/css_js.php
+http://m.imomo.tv/3G.php
+http://m.imomo.tv/cons.php
+http://m.imomo.tv/database.php
+http://m.imomo.tv/update/
+*******************************************************************************
+
+**********************************端口列表**************************************
+2000         UNKNOW
+5060         UNKNOW
+*******************************************************************************
+
+**********************************js敏感信息泄露********************************
+http://m.imomo.tv/         http://service.weibo.com/share/share.php
+http://m.imomo.tv/         http://mechatim.com/js/unit/button.js
+http://m.imomo.tv/         http://v.t.qq.com/share/share.php
+http://m.imomo.tv/         http://connect.qq.com/widget/shareqq/index.html
+*******************************************************************************
+
+**********************************sql_fuzz**************************************
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1sleep
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1delete
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1*/*
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1/**/
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1anandd
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1GROUP
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1HAVING
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1INTO
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1JOIN
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1LEAVE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1LEFT
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1LEVEL
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1sleep
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1LIKE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1NAMES
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1NEXT
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1GROUP_CONCAT
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1group_concat
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1CREATE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1DATABASE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1DATABASES
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1alter
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1DELETE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1DROP
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1floor
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1rand()
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1information_schema.tables
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1TABLE_SCHEMA
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1%df
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1concat_ws()
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1ON
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1by
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1OUTFILE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1RENAME
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1REPLACE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1SELECT
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1SET
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1SHOW
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1TABLE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1THEN
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1instr
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1benchmark
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1format
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1substring
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1ord
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1UPDATE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1VALUES
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1VERSION
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1CURSOR
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1FLOOR
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1sys.schema_table_statistics_with_buffer
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1INFILE
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1count
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1%a0
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1=
+http://m.imomo.tv/?id=1         http://m.imomo.tv/?id=1@
+*******************************************************************************
+
+**********************************系统漏洞*************************************
+*******************************************************************************
+
+**********************************cms漏洞*************************************
+*************************************************************
+

