@@ -44,7 +44,7 @@ class turbomail_conf_BaseVerify:
             tlib.write(b"login admin admin321\r\n")
             result = tlib.read_until(b"200 login successfully\r\n", timeout=6)
             tlib.close()
-            if result.find(b"200 login successfully") is not -1:
+            if result.find(b"200 login successfully") != -1:
                 cprint("[+]存在TurboMail 默认口令漏洞...(高危)\tpayload: "+host+":"+str(port)+" admin:admin321", "red")
                 postdata = {self.url:"存在TurboMail 默认口令漏洞...(高危)\tpayload: "+host+":"+str(port)+" admin:admin321"}
                 requests.post('http://localhost:8848/system', json=postdata) 
