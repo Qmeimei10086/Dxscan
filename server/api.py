@@ -281,8 +281,8 @@ def server_api_report():
     text += "********************************************************************************"+ '\n'
     text += "\n" 
     localtimes = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()).replace(":","-")
-    os.makedirs("report\\"+localtimes)
-    with open("report\\"+localtimes+"\\output.txt",'w') as f:
+    os.makedirs("report/"+localtimes)
+    with open("report/"+localtimes+"/output.txt",'w') as f:
         f.write(text)
     
     output_json_fingerprint_dict = {}
@@ -347,7 +347,7 @@ def server_api_report():
     }
     
     json_str = json.dumps(output_json, indent=4)
-    with open("report\\"+localtimes+"\\data.json", 'w') as json_file:
+    with open("report/"+localtimes+"/data.json", 'w') as json_file:
         json_file.write(json_str)
     
     
