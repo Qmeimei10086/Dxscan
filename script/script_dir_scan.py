@@ -61,19 +61,19 @@ def script_dir_scan_dir_scan(url,text,types):
     sTime = time.time()
     file = ""
     if types == "php":
-        file = "data\\php.txt"
+        file = "data/php.txt"
     if types == "asp":
-        file = "data\\asp.txt"
+        file = "data/asp.txt"
     if types == "aspx":
-        file = "data\\aspx.txt"
+        file = "data/aspx.txt"
     if types == "jsp":
-        file = "data\\jsp.txt"
+        file = "data/jsp.txt"
     if types == "beifeng":
-        file = "data\\beifen.txt"
+        file = "data/beifen.txt"
     if types == 'admin':
-        file = "data\\admin.txt"
+        file = "data/admin.txt"
     if types == 'often':
-        file = "data\\dir.txt"
+        file = "data/dir.txt"
     make_thread(url,int(threadNum),text,file)
     eTime = time.time()
     postdata = {"dir": dir_data}
