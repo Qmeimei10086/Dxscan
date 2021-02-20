@@ -119,7 +119,7 @@ def isIP(target):
         text = '[-]'+target+" 不是域名或IP"
         printf(text,"red")
         return False
-threading.Thread(target=os.system, args=(sys.executable+" server\\api.py",)).start()
+threading.Thread(target=os.system, args=(sys.executable+" server/api.py",)).start()
 time.sleep(3)
 #--------------------------------------------------
 def main_os_scan(target):
