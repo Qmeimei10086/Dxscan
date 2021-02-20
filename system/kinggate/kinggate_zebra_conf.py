@@ -44,7 +44,7 @@ class kinggate_zebra_conf_BaseVerify:
             tlib.write(b"zebra\r\n")
             result = tlib.read_until(b"zrinfo>", timeout=6)
             tlib.close()
-            if result.find(b"zrinfo>") is not -1:
+            if result.find(b"zrinfo>") != -1:
                 cprint("[+]存在KingGate zebra默认配置漏洞...(高危)\tpayload: "+host+":"+str(port)+" pass:zebra", "red")
                 postdata = {self.url:"存在KingGate zebra默认配置漏洞...(高危)\tpayload: "+host+":"+str(port)+" pass:zebra"}
                 requests.post('http://localhost:8848/system', json=postdata) 
