@@ -42,7 +42,7 @@ class moxa_oncell_telnet_BaseVerify:
             #登陆
             result = tlib.read_until(b"Console terminal type", timeout=6)
             tlib.close()
-            if result.find(b"Console terminal type") is not -1:
+            if result.find(b"Console terminal type") != -1:
                 cprint("[+]存在Moxa OnCell 未授权访问漏洞...(高危)\tpayload: "+host+":"+str(port), "red")
                 postdata = {self.url:"存在Moxa OnCell 未授权访问漏洞...(高危)\tpayload: "+host+":"+str(port)}
                 requests.post('http://localhost:8848/system', json=postdata) 
