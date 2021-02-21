@@ -13,24 +13,24 @@ os.system("unzip libxslt.zip")
 os.system("unzip libxml2.zip")
 print("[+]开始验证python版本")
 python_V = (os.popen("python -V").readlines())[0]
-if "3." in = python_V[:9]:
+if "3." in python_V[:9]:
 	print("[+]python默认版本为3.x")
 	pass
 else:
 	python_V = (os.popen("python3 -V").readlines())[0]
-	if "3." in = python_V[:9]:
+	if "3." in python_V[:9]:
 		python_path = "python3"
 	else:
 		print("[-]电脑里没有python(可能)")
 
 
 python_V = (os.popen("pip -V").readlines())[0]
-if "3." in = python_V[:9]:
+if "3." in python_V[:9]:
 	print("[+]pip默认版本为3.x")
 	pass
 else:
 	python_V = (os.popen("pip3 -V").readlines())[0]
-	if "3." in = python_V[:9]:
+	if "3." in python_V[:9]:
 		python_path = "pip3"
 	else:
 		print("[-]电脑里没有pip(可能)")
