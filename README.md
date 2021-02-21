@@ -18,10 +18,10 @@ colorama
 scapy  
 python-nmap  
 flask  
-
+  
 # termux安装:  
-cd setup
-python setup.py(如果python默认不是3.x的话,python3 setup.py)
+cd setup  
+python setup.py(如果python默认不是3.x的话,python3 setup.py)  
 # 作用:  
 全自动web扫描器  
 支持端口扫描,whois查询，cdn确认，指纹识别，系统扫描，js敏感信息泄露，目录爆破，sql模糊尝试,子域名扫描  
