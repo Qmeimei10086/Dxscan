@@ -6,6 +6,11 @@ os.system("pkg update -y")
 os.system("apt update -y")
 print("[+]开始安装nmap")
 os.system("pkg install nmap -y")
+print("[+]开始安装unzip")
+os.system("pkg install unzip -y")
+print("[+]开始解压配置文件")
+os.system("unzip libxslt.zip")
+os.system("unzip libxml2.zip")
 print("[+]开始验证python版本")
 python_V = (os.popen("python -V").readlines())[0]
 if "3." in = python_V[:9]:
