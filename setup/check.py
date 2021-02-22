@@ -3,7 +3,7 @@ try:
 except:
 	print("paramiko未安装")
 
-try	
+try:	
 	import pymongo
 except:
 	print("pymongo未安装")
@@ -23,7 +23,7 @@ try:
 except:
 	print("termcolor未安装")
 	
-try
+try:
 	import requests
 except:
 	print("requests未安装")
