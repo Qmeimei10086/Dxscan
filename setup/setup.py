@@ -1,9 +1,21 @@
 import os
+import sys
+
+choose = input("是否切换到北京外国语大学源,已经切换的跳过(libxslt需要这个源,但安卓7.0一下无法使用)[y/n]")
+if choose = "y" or choose == "":
+	os.system(r"sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list")
+	os.system(r"sed -i 's@^\(deb.*games stable\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/game-packages-24 games stable@' $PREFIX/etc/apt/sources.list.d/game.list")
+	os.system(r"sed -i 's@^\(deb.*science stable\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/science-packages-24 science stable@' $PREFIX/etc/apt/sources.list.d/science.list")
+	print("[+]切换成功")
+else:
+	pass
+
+
 python_path = "python"
 pip_path = "pip"
 print("[+]开始更新apt/pkg")
 os.system("pkg update -y")
-os.system("apt update -y")
+os.system("apt update -y && apt upgrade -y")
 print("[+]开始安装nmap")
 os.system("pkg install nmap -y")
 print("[+]开始安装unzip")
@@ -13,24 +25,24 @@ os.system("unzip libxslt.zip")
 os.system("unzip libxml2.zip")
 print("[+]开始验证python版本")
 python_V = (os.popen("python -V").readlines())[0]
-if "3." in python_V[:9]:
+if "3." in = python_V[:9]:
 	print("[+]python默认版本为3.x")
 	pass
 else:
 	python_V = (os.popen("python3 -V").readlines())[0]
-	if "3." in python_V[:9]:
+	if "3." in = python_V[:9]:
 		python_path = "python3"
 	else:
 		print("[-]电脑里没有python(可能)")
 
 
 python_V = (os.popen("pip -V").readlines())[0]
-if "3." in python_V[:9]:
+if "3." in = python_V[:9]:
 	print("[+]pip默认版本为3.x")
 	pass
 else:
 	python_V = (os.popen("pip3 -V").readlines())[0]
-	if "3." in python_V[:9]:
+	if "3." in = python_V[:9]:
 		python_path = "pip3"
 	else:
 		print("[-]电脑里没有pip(可能)")
@@ -43,7 +55,7 @@ print("[+]开始安装paramiko")
 os.system(pip_path + " install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com paramiko")
 print("[+]开始安装pymongo")
 os.system(pip_path + " install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com pymongo")
-print("[+]开始安装pymongo")
+print("[+]开始安装PyMySQL")
 os.system(pip_path + " install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com PyMySQL")
 print("[+]开始安装pexpect")
 os.system(pip_path + " install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com pexpect")
@@ -110,6 +122,11 @@ if choose == "y":
 
 if choose == "n" or choose == "":
 	print("[*]安装完成")
+
+print("开始验证库安装情况")
+
+
+os.system(sys.executable + " check.py")
 
 
 
