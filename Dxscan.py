@@ -10,36 +10,34 @@ ______
 """
 init(autoreset=True)
 printf(banner,"yellow")
-try:
-    import re
-    from script.script_osscan import*
-    from script.script_whois import*
-    from script.script_findsubdomain import*
-    from script.script_portscan import*
-    from script.script_fingerprint import*
-    from script.script_dir_scan import*
-    from script.script_jsparse import*
-    from script.script_cdn import*
-    from script.script_check_waf import*
-    from sql_fuzz.class_fuzzer import Fuzzer
-    from script_cms_scan import*
-    from script_cms_scan_all import*
-    from script_system_scan import*
-    from script_postdata import postdata_sql
-    import argparse
-    import socket
-    import colorama
-    from colorama import init,Fore,Back,Style
-    import platform
-    from bs4 import BeautifulSoup
-    import threading
-    import requests
-    import os
-    import sys
-    import time
-    from automatic import*
-except Exception as e:
-    print(e)
+import re
+from script.script_osscan import*
+from script.script_whois import*
+from script.script_findsubdomain import*
+from script.script_portscan import*
+from script.script_fingerprint import*
+from script.script_dir_scan import*
+from script.script_jsparse import*
+from script.script_cdn import*
+from script.script_check_waf import*
+from sql_fuzz.class_fuzzer import Fuzzer
+from script_cms_scan import*
+from script_cms_scan_all import*
+from script_system_scan import*
+from script_postdata import postdata_sql
+import argparse
+import socket
+import colorama
+from colorama import init,Fore,Back,Style
+import platform
+from bs4 import BeautifulSoup
+import threading
+import requests
+import os
+import sys
+import time
+from automatic import*
+
 js_list_main = []
 
 def start_js(url):
