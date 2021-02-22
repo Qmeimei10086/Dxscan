@@ -25,24 +25,24 @@ os.system("unzip libxslt.zip")
 os.system("unzip libxml2.zip")
 print("[+]开始验证python版本")
 python_V = (os.popen("python -V").readlines())[0]
-if "3." in = python_V[:9]:
+if "3." in python_V[:9]:
 	print("[+]python默认版本为3.x")
 	pass
 else:
 	python_V = (os.popen("python3 -V").readlines())[0]
-	if "3." in = python_V[:9]:
+	if "3." in python_V[:9]:
 		python_path = "python3"
 	else:
 		print("[-]电脑里没有python(可能)")
 
 
 python_V = (os.popen("pip -V").readlines())[0]
-if "3." in = python_V[:9]:
+if "3." in python_V[:9]:
 	print("[+]pip默认版本为3.x")
 	pass
 else:
 	python_V = (os.popen("pip3 -V").readlines())[0]
-	if "3." in = python_V[:9]:
+	if "3." in python_V[:9]:
 		python_path = "pip3"
 	else:
 		print("[-]电脑里没有pip(可能)")
@@ -52,7 +52,7 @@ os.system(pip_path + " install --upgrade pip")
 print("[+]开始安装flask")
 os.system(pip_path + " install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com flask")
 print("[+]开始安装paramiko")
-os.system(pip_path + " install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com paramiko")
+os.system(pip_path + " install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com paramiko==2.4.2")
 print("[+]开始安装pymongo")
 os.system(pip_path + " install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com pymongo")
 print("[+]开始安装PyMySQL")
